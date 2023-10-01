@@ -15,6 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
+  <script src="https://kit.fontawesome.com/a291c509aa.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
   <link rel="stylesheet" href="./assets/vendor/aos/dist/aos.css">
@@ -151,7 +152,17 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <div class="navbar-absolute-top-scroller">
             <ul class="navbar-nav">
+              <!-- Menu Item -->
+              <li class="hs-has-sub-menu nav-item">
+                <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Eventos</a>
 
+                <!-- Mega Menu -->
+                <div class="hs-sub-menu dropdown-menu" aria-labelledby="companyMegaMenu" style="min-width: 14rem;">
+                  <a class="dropdown-item " href="./cursos.html">Talleres</a>
+                </div>
+                <!-- End Mega Menu -->
+              </li>
+              <!-- End Menu Item -->
               <!-- Button -->
               <li class="nav-item">
                 <a class="btn btn-light btn-transition" href="https://www.facebook.com/codetec.institute" target="_blank">Contáctanos</a>
@@ -169,384 +180,42 @@
 
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
-    <!-- Hero -->
-    <div class="gradient-x-overlay-lg-dark-video" >
-      <!-- Video Background -->
-      
-      <video style="position: absolute; top: 0; left:0; width: 100%; height: 100%; object-fit: cover;" playsinline autoplay muted loop id="bgvid">
-        <source src="./assets/video/bg5.mp4" type="video/mp4">
-      </video>
-
-      <!-- End Video Background -->
-
-      <div class="position-relative zi-2">
-        <!-- Content -->
-        <div class="d-md-flex" style="overflow: hidden;">
-          <div class="container w-100 d-md-flex align-items-md-center min-vh-md-100 text-center content-space-3 content-space-t-md-4 content-space-t-lg-3">
-            <div class="w-lg-75 w-sm-100 mx-lg-auto">
-              <!-- Heading -->
-              <div class="mb-7" style="min-height: 40vh; position: relative;">
-                <h1 class="display-4 text-white mb-3 " style="font-size: 4.3rem; height: 100%;">
-                  <span class="text-white " style="overflow: hidden; width: 100vw;  margin: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%)">
-                    <span class="js-typedjs"
-                          data-hs-typed-options='{
-                            "strings": ["Todo sobre software"],
-                            "typeSpeed": 80,
-                            "loop": true,
-                            "backSpeed": 30,
-                            "backDelay": 3000
-                          }'></span>
-                  </span>
-                </h1>
-                <!-- <p class="lead text-white">Creación de Páginas y Aplicaciones Web. Desarrollo de Apps Móviles. Automatización de Tareas. Cursos de Ingeniería de Software.</p> -->
-                
-              </div>
-              <!-- End Title & Description -->
-
-              <!-- Input Card -->
-              <!-- End Input Card -->
-            </div>
-          </div>
-        </div>
-        <!-- End Content -->
-
-        <!-- Clients -->
-        <div id="SVGHero" class="position-absolute bottom-0 start-0 end-0" >
-          <div class="container py-5">
-            <!-- Swiper Slider -->
-            <div class="js-swiper-hero-clients swiper text-center">
-              <div class="swiper-wrapper">
-                <!-- Slide -->
-                <div class="swiper-slide">
-                  <a href="https://www.reditmex.com" target="_blank"><img class="avatar avatar-lg avatar-4x3" src="./assets/img/logos/partners/reditmex/LOGOMINBLANCO.png" alt="Logo"></a>
-                </div>
-                <!-- End Slide -->
-
-                <div class="swiper-slide">
-                  <img class="avatar avatar-lg avatar-4x3" src="./assets/img/logos/partners/smproducciones/LOGOFULL_BLANCO.png" alt="Logo">
-                </div>
-                <!-- End Slide -->
-
-                <div class="swiper-slide">
-                  <img class="avatar avatar-lg avatar-4x3" src="./assets/img/logos/partners/shanioffer/LOGOFULLBLANCO.png" alt="Logo">
-                </div>
-                <!-- End Slide -->
-
-                <div class="swiper-slide">
-                  <a href="https://www.facebook.com/koquitravel" target="_blank"><img class="avatar avatar-lg avatar-4x3" src="./assets/img/logos/partners/koquitravel/KTFULLBLANCO.png" alt="Logo"></a>
-                </div>
-                <!-- End Slide -->
-              </div>
-            </div>
-            <!-- End Swiper Slider -->
-          </div>
-          <!-- End Clients -->
-          <figure className="position-absolute right-0 bottom-0 left-0">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="100%" height="85px" viewBox="0 0 1920 107.7" style="margin-bottom: -8px; enable-background: 'new 0 0 1920 107.7';" xml-space="preserve" class="injected-svg js-svg-injector" data-parent="#SVGHero">
-                <path class="wave-9-bottom-0 fill-white" d="M0,107.7V69.8c0,0,451-54.7,960-5.4S1920,0,1920,0v107.7H0z"></path>
-                <path class="wave-9-bottom-1 fill-white" opacity=".3" d="M0,107.7v-81c0,0,316.2-8.9,646.1,54.5s794.7-114.1,1273.9-38v64.5H0z"></path>
-            </svg>
-          </figure>
-        </div>
-      </div>
-    </div>
-    <!-- End Hero -->
     <!-- Icon Blocks -->
     <div class="overflow-hidden">
       <div class="container position-relative content-space-2 content-space-t-lg-3">
         <!-- Heading -->
         <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-          <span class="text-cap text-white">¿Qué hacemos?</span>
-          <h2 class="text-white">Soluciones de Ingeniería de Software</h2>
+          <span class="text-cap text-white">CATÁLOGO DE TALLERES</span>
         </div>
         <!-- End Heading -->
 
-        
         <!-- Card -->
-        <div data-aos="fade-up " data-aos-once="false" >
-          <a class="card card-transition cards-bg-neon shadow-neon-1" href="https://www.facebook.com/codetec.institute">
+        <a data-aos="fade-up " data-aos-once="false" href="cursos/fundamentos-programacion-python.html">
+          <div class="card mb-7 card-transition cards-bg-neon shadow-neon-1" href="https://www.facebook.com/codetec.institute">
             <div class="card-body">
               <div class="row">
-                <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="col-lg-12 mb-lg-0">
                   <div class="d-flex flex-column h-100">
-                    <div class="mb-7">
-                      <h2 class="card-title h1 text-white">Páginas Web</h2>
-                      <p class="card-text text-body text-white">Te ayudamos a crear y poner en línea tu primera página web. Llega a más visitantes y haz crecer tu negocio.</p>
+                    <div class="">
+                      <h2 class="card-title h1 text-white"> Fundamentos de Programación con Python</h2>
+                      <span class="badge rounded-pill bg-primary"><i class="fab fa-python"></i> Python </span>
+                      <span class="badge rounded-pill bg-danger"> Básico </span>
+                      <span class="badge rounded-pill bg-success"> 6 Hrs </span>
+                      <span class="badge rounded-pill bg-light text-dark">FECHAS ABIERTAS </span>
                     </div>
-
-                    <!-- Testimonials -->
-                    <div class="card shadow-none mt-auto">
-                      <div class="card-body">
-                        <!-- Blockquote -->
-                        <figure>
-                            <div class="d-flex align-items-center">
-
-                              <div class="flex-grow-1 ">
-                                <button class="btn btn-dark w-100"> EMPIEZA HOY </button>
-                              </div>
-                            </div>
-                        </figure>
-                        <!-- End Blockquote -->
-                      </div>
-                    </div>
-                    <!-- End Testimonials -->
                   </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="col-lg-8">
-                  <div class="mb-5">
-                    <img class="img-fluid rounded-2 " src="./assets/img/prod1.jpg" alt="Image Description"  style="width: 100%; height: 300px;  object-fit: cover;">
-                  </div>
-
-                  <div class="row">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                      <h4 class="card-title text-white">Cotiza tu página</h4>
-                      <p class="card-text text-secondary">Empieza hoy, escríbenos y obtén una cotización para que empieces a usar y promocionar tu página de internet.</p>
-                    </div>
-                    <!-- End Col -->
-
-                    <div class="col-sm-6">
-                      <h4 class="card-title text-white">Hosting en la nube</h4>
-                      <p class="card-text text-secondary">Nos aseguramos que tu página este siempre disponible, nosotros nos encargamos de almacenar tu página web.</p>
-                    </div>
-                    <!-- End Col -->
-                  </div>
-                  <!-- End Row -->
                 </div>
                 <!-- End Col -->
               </div>
               <!-- End Row -->
             </div>
-          </a>
-        </div>
+          </div>
+        </a>
         <!-- End Card -->
 
-        <!-- Card -->
-        <div data-aos="fade-up" data-aos-once="false" >
-          <a class="card card-transition cards-bg-neon shadow-neon-2 mt-10" href="https://www.facebook.com/codetec.institute"">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-lg-4 order-lg-2 mb-5 mb-lg-0">
-                  <div class="d-flex flex-column h-100">
-                    <div class="mb-7">
-                      <h2 class="card-title h1 text-white">Desarrollo de Apps</h2>
-                      <p class="card-text text-body">Diseñamos tu aplicación web o móvil lista para que tus usuarios la usen en su navegador favorito o la distribuyas en las app stores más comunes: Google Play y Apple App Store.</p>
-                    </div>
-
-                    <!-- Testimonials -->
-                    <div class="card shadow-none mt-auto">
-                      <div class="card-body">
-                        <!-- Blockquote -->
-                        <figure>
-                            <div class="d-flex align-items-center">
-
-                              <div class="flex-grow-1 ">
-                                <button class="btn btn-dark w-100"> EMPIEZA HOY </button>
-                              </div>
-                            </div>
-                        </figure>
-                        <!-- End Blockquote -->
-                      </div>
-                    </div>
-                    <!-- End Testimonials -->
-                  </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="col-lg-8">
-                  <div class="mb-5">
-                    <img class="img-fluid rounded-2 " src="./assets/img/prod2.jpg" alt="Image Description"  style="width: 100%; height: 300px; object-fit: cover;">
-                  </div>
-
-                  <div class="row">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                      <h4 class="card-title text-white">Tu propia app en tu celular</h4>
-                      <p class="card-text text-body">¿Necesitas una aplicación móvil? Nosotros la desarrollamos, en poco tiempo estará lista para descargar en Google Play o App Store.</p>
-                    </div>
-                    <!-- End Col -->
-
-                    <div class="col-sm-6">
-                      <h4 class="card-title text-white">Hosting en la nube</h4>
-                      <p class="card-text text-body">Nos aseguramos que tu aplicación este siempre disponible, nosotros nos encargamos de almacenar tu aplicación web o móvil.</p>
-                    </div>
-                    <!-- End Col -->
-                  </div>
-                  <!-- End Row -->
-                </div>
-                <!-- End Col -->
-              </div>
-              <!-- End Row -->
-            </div>
-          </a>
-        </div>
-        <!-- End Card -->
-
-        <!-- Card -->
-        <div data-aos="fade-up " data-aos-once="false" >
-          <a class="card card-transition cards-bg-neon shadow-neon-1 mt-10" href="https://www.facebook.com/codetec.institute"">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                  <div class="d-flex flex-column h-100">
-                    <div class="mb-7">
-                      <h2 class="card-title h1 text-white">Marketing</h2>
-                      <p class="card-text text-body">Ayudamos a acelerar tu negocio fortaleciendo tu imagen corporativa, tu presencia en redes sociales y buscadores.</p>
-                    </div>
-
-                    <!-- Testimonials -->
-                    <div class="card shadow-none mt-auto">
-                      <div class="card-body">
-                        <!-- Blockquote -->
-                        <figure>
-                            <div class="d-flex align-items-center">
-
-                              <div class="flex-grow-1 ">
-                                <button class="btn btn-dark w-100"> EMPIEZA HOY </button>
-                              </div>
-                            </div>
-                        </figure>
-                        <!-- End Blockquote -->
-                      </div>
-                    </div>
-                    <!-- End Testimonials -->
-                  </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="col-lg-8">
-                  <div class="mb-5">
-                    <img class="img-fluid rounded-2 " src="./assets/img/prod3.jpg" alt="Image Description"  style="width: 100%; height: 300px;  object-fit: cover;">
-                  </div>
-
-                  <div class="row">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                      <h4 class="card-title text-white">Redes Sociales</h4>
-                      <p class="card-text text-body">Te ayudamos a gestionar tus redes sociales, programar tu contenido, y mejorar tu presencia en internet.</p>
-                    </div>
-                    <!-- End Col -->
-
-                    <div class="col-sm-6">
-                      <h4 class="card-title text-white">Imagen Corporativa</h4>
-                      <p class="card-text text-body">Creemos que una imagen vale mas que mil palabras. Haz que la imagen de tu proyecto hable por si sola.</p>
-                    </div>
-                    <!-- End Col -->
-                  </div>
-                  <!-- End Row -->
-                </div>
-                <!-- End Col -->
-              </div>
-              <!-- End Row -->
-            </div>
-          </a>
-        </div>
-        <!-- End Card -->
-        
-        <!-- Card -->
-        <div data-aos="fade-up" data-aos-once="false" >
-          <a class="card card-transition cards-bg-neon shadow-neon-2 mt-10" href="https://www.facebook.com/codetec.institute"">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-lg-4 order-lg-2 mb-5 mb-lg-0">
-                  <div class="d-flex flex-column h-100">
-                    <div class="mb-7">
-                      <h2 class="card-title h1 text-white">Cursos, Talleres y Conferencias</h2>
-                      <p class="card-text text-body">Material y pláticas de ingeniería de software, lenguajes de programación, frameworks, mejores prácticas y más. Regístrate hoy.</p>
-                    </div>
-
-                    <!-- Testimonials -->
-                    <div class="card shadow-none mt-auto">
-                      <div class="card-body">
-                        <!-- Blockquote -->
-                        <figure>
-                            <div class="d-flex align-items-center">
-                              <div class="flex-grow-1 ">
-                                <button class="btn btn-dark w-100"> EMPIEZA HOY </button>
-                              </div>
-                            </div>
-                        </figure>
-                        <!-- End Blockquote -->
-                      </div>
-                    </div>
-                    <!-- End Testimonials -->
-                  </div>
-                </div>
-                <!-- End Col -->
-
-                <div class="col-lg-8">
-                  <div class="mb-5 ">
-                    <img class="img-fluid rounded-2 " src="./assets/img/prod4.jpg" alt="Image Description"  style="width: 100%; height: 300px;  object-fit: cover;">
-                  </div>
-
-                  <div class="row">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                      <h4 class="card-title text-white">Talleres Online</h4>
-                      <p class="card-text text-body">Empieza tu carrera profesional en el mundo del software. Talleres guiados por expertos de la industria te ayudarán en tu camino.</p>
-                    </div>
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                      <h4 class="card-title text-white">Conferencias de Expertos</h4>
-                      <p class="card-text text-body">Lleva pláticas, conferencias y capacitaciones a tu empresa, escuela o negocio para estar al tanto de lo último en tecnología.</p>
-                    </div>
-                    <!-- End Col -->
-                  </div>
-                  <!-- End Row -->
-                </div>
-                <!-- End Col -->
-              </div>
-              <!-- End Row -->
-            </div>
-          </a>
-        </div>
-        <!-- End Card -->
       </div>
     </div>
     <!-- End Icon Blocks -->
-
-    <!-- Testimonials -->
-    <div class="overflow-hidden">
-      <div class="container content-space-2 content-space-lg-3">
-        <div class="row justify-content-lg-between align-items-md-center " data-aos="fade-up" data-aos-once="false" >
-          <div class="col-md-6 order-md-2 mb-10 mb-md-0">
-            <div class="position-relative">
-              
-              <video class="rounded-2" style=" width: 100%; height: 100%; object-fit: cover;" playsinline autoplay muted loop id="bgvid" oncanplay="this.play()" onloadedmetadata="this.muted = true">
-                <source src="./assets/video/partner/reditmex.mp4" type="video/mp4">
-              </video>
-
-              <!-- SVG Shape -->
-              <figure class="position-absolute top-0 start-0 zi-n1 mt-n7 ms-n7" style="width: 12rem;">
-                <img class="img-fluid" src="./assets/svg/components/dots-lg.svg" alt="SVG">
-              </figure>
-              <!-- End SVG Shape -->
-              
-              <!-- SVG Shape -->
-              <figure class="position-absolute bottom-0 end-0 zi-n1 mb-n7 me-n7" style="width: 12rem;">
-                <img class="img-fluid" src="./assets/svg/components/dots-lg.svg" alt="SVG">
-              </figure>
-              <!-- End SVG Shape -->
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-5 order-md-1 ">
-            <div class="mb-4">
-              <img class="avatar avatar-xl avatar-4x3" src="./assets/img/logos/partners/reditmex/LOGOMINBLANCO.png" alt="Image Description">
-            </div>
-
-            <!-- Blockquote -->
-            <figure>
-              <blockquote class="blockquote blockquote-lg text-white">"Nuestra página de internet y la identidad de marca nos ha ayudado a establecernos como líderes en nuestra zona de cobertura."</blockquote>
-              
-              <figcaption class="blockquote-footer">
-                <a href="https://www.reditmex.com">www.reditmex.com</a>
-                <span class="blockquote-footer-source">CEO | Red Itmex</span>
-              </figcaption>
-            </figure>
-            <!-- End Blockquote -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Testimonials -->
 
     <!-- Clients -->
     <div class="position-relative overflow-hidden content-space-t-2">
